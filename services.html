@@ -10,7 +10,7 @@
 
 <body>
     <div class="container">
-        <div class="sidebar">
+        <div class="sidebar sidebarGo">
             <nav>
                 <ul>
                     <li><a href="/">Home</a></li>
@@ -21,6 +21,10 @@
             </nav>
         </div>
         <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="ham.png" alt="" width="30">
+                <img class="cross" src="cross.png" alt="" width="20">
+            </div>
             <div class="infoContainer">
                 <div class="devInfo">
                     <div class="hello">Hi I am </div>
@@ -29,14 +33,16 @@
                     <div class="moreabout">I'm a developer, and I live in Ajmer la la la aa lkniubdi jwnciuw j
                         cjjbui wenc98e 8e98ewhc weh8ew nwevbwe wefounduf f2 f92f </div>
                     <div class="buttons">
-                        <button>Download Resume</button>
-                        <button>Contact Me</button>
+                        <a href="/cv.txt" target="_blank">
+                            <button class="btn">Download Resume</button></a>
+                        <a href="/contact.html">
+                            <button class="btn">Contact Me</button></a>
                     </div>
                 </div>
                 <div class="devPic"><img src="dev.png" alt="Krishna Jangid"></div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
-
 </html>
